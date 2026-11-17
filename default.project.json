@@ -1,5 +1,5 @@
 {
-  "name": "house-dodge",
+  "name": "brainrot-beach",
   "tree": {
     "$className": "DataModel",
     "Players": {
@@ -7,9 +7,17 @@
         "CharacterAutoLoads": false
       }
     },
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
     "ServerScriptService": {
       "Server": {
         "$path": "src/server"
+      },
+      "Tour": {
+        "$path": "src/tour.luau"
       }
     },
     "StarterPlayer": {
